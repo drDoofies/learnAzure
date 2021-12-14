@@ -1,0 +1,19 @@
+{
+	"name": "SourceDataset_n79",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "tocontainerone",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "FAO.csv",
+				"folderPath": "input",
+				"container": "containerone"
+			}
+		}
+	}
+}
