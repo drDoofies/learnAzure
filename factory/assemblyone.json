@@ -1,0 +1,9 @@
+{
+	"name": "assemblyone",
+	"location": "westeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "3dfc41ab-a69f-4ab7-97b9-2804ff444028",
+		"tenantId": "fa369975-aae1-4b38-815d-03492240f540"
+	}
+}
