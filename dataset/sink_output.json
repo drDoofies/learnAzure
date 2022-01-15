@@ -1,0 +1,277 @@
+{
+	"name": "sink_output",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "tocontainerone",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"folderPath": "input",
+				"container": "containerone"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Area Abbreviation",
+				"type": "String"
+			},
+			{
+				"name": "Area Code",
+				"type": "String"
+			},
+			{
+				"name": "Area",
+				"type": "String"
+			},
+			{
+				"name": "Item Code",
+				"type": "String"
+			},
+			{
+				"name": "Item",
+				"type": "String"
+			},
+			{
+				"name": "Element Code",
+				"type": "String"
+			},
+			{
+				"name": "Element",
+				"type": "String"
+			},
+			{
+				"name": "Unit",
+				"type": "String"
+			},
+			{
+				"name": "latitude",
+				"type": "String"
+			},
+			{
+				"name": "longitude",
+				"type": "String"
+			},
+			{
+				"name": "Y1961",
+				"type": "String"
+			},
+			{
+				"name": "Y1962",
+				"type": "String"
+			},
+			{
+				"name": "Y1963",
+				"type": "String"
+			},
+			{
+				"name": "Y1964",
+				"type": "String"
+			},
+			{
+				"name": "Y1965",
+				"type": "String"
+			},
+			{
+				"name": "Y1966",
+				"type": "String"
+			},
+			{
+				"name": "Y1967",
+				"type": "String"
+			},
+			{
+				"name": "Y1968",
+				"type": "String"
+			},
+			{
+				"name": "Y1969",
+				"type": "String"
+			},
+			{
+				"name": "Y1970",
+				"type": "String"
+			},
+			{
+				"name": "Y1971",
+				"type": "String"
+			},
+			{
+				"name": "Y1972",
+				"type": "String"
+			},
+			{
+				"name": "Y1973",
+				"type": "String"
+			},
+			{
+				"name": "Y1974",
+				"type": "String"
+			},
+			{
+				"name": "Y1975",
+				"type": "String"
+			},
+			{
+				"name": "Y1976",
+				"type": "String"
+			},
+			{
+				"name": "Y1977",
+				"type": "String"
+			},
+			{
+				"name": "Y1978",
+				"type": "String"
+			},
+			{
+				"name": "Y1979",
+				"type": "String"
+			},
+			{
+				"name": "Y1980",
+				"type": "String"
+			},
+			{
+				"name": "Y1981",
+				"type": "String"
+			},
+			{
+				"name": "Y1982",
+				"type": "String"
+			},
+			{
+				"name": "Y1983",
+				"type": "String"
+			},
+			{
+				"name": "Y1984",
+				"type": "String"
+			},
+			{
+				"name": "Y1985",
+				"type": "String"
+			},
+			{
+				"name": "Y1986",
+				"type": "String"
+			},
+			{
+				"name": "Y1987",
+				"type": "String"
+			},
+			{
+				"name": "Y1988",
+				"type": "String"
+			},
+			{
+				"name": "Y1989",
+				"type": "String"
+			},
+			{
+				"name": "Y1990",
+				"type": "String"
+			},
+			{
+				"name": "Y1991",
+				"type": "String"
+			},
+			{
+				"name": "Y1992",
+				"type": "String"
+			},
+			{
+				"name": "Y1993",
+				"type": "String"
+			},
+			{
+				"name": "Y1994",
+				"type": "String"
+			},
+			{
+				"name": "Y1995",
+				"type": "String"
+			},
+			{
+				"name": "Y1996",
+				"type": "String"
+			},
+			{
+				"name": "Y1997",
+				"type": "String"
+			},
+			{
+				"name": "Y1998",
+				"type": "String"
+			},
+			{
+				"name": "Y1999",
+				"type": "String"
+			},
+			{
+				"name": "Y2000",
+				"type": "String"
+			},
+			{
+				"name": "Y2001",
+				"type": "String"
+			},
+			{
+				"name": "Y2002",
+				"type": "String"
+			},
+			{
+				"name": "Y2003",
+				"type": "String"
+			},
+			{
+				"name": "Y2004",
+				"type": "String"
+			},
+			{
+				"name": "Y2005",
+				"type": "String"
+			},
+			{
+				"name": "Y2006",
+				"type": "String"
+			},
+			{
+				"name": "Y2007",
+				"type": "String"
+			},
+			{
+				"name": "Y2008",
+				"type": "String"
+			},
+			{
+				"name": "Y2009",
+				"type": "String"
+			},
+			{
+				"name": "Y2010",
+				"type": "String"
+			},
+			{
+				"name": "Y2011",
+				"type": "String"
+			},
+			{
+				"name": "Y2012",
+				"type": "String"
+			},
+			{
+				"name": "Y2013",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

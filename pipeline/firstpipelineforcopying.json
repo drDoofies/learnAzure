@@ -42,6 +42,10 @@
 						}
 					},
 					"enableStaging": false,
+					"skipErrorFile": {
+						"dataInconsistency": false
+					},
+					"validateDataConsistency": true,
 					"logSettings": {
 						"enableCopyActivityLog": true,
 						"copyActivityLogSettings": {
@@ -56,9 +60,23 @@
 							"path": "containerone"
 						}
 					}
-				}
+				},
+				"inputs": [
+					{
+						"referenceName": "SourceDataset_n79",
+						"type": "DatasetReference"
+					}
+				],
+				"outputs": [
+					{
+						"referenceName": "DestinationDataset_n79",
+						"type": "DatasetReference"
+					}
+				]
 			}
 		],
-		"annotations": []
-	}
+		"annotations": [],
+		"lastPublishTime": "2021-12-18T20:33:18Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
 }
